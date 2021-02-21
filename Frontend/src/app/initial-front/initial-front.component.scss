@@ -1,0 +1,14 @@
+#body {
+    // background-image: url("../../assets/images/hp-spells.jpg");
+    background-color:#fff;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+mat-card.card-panel{width: 70%;}
+mat-grid-tile.static-bg{ 
+    background-image: url("../../assets/images/hp-spells.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: calc((50% - 0.5px) * 1 + 1px) !important;}
