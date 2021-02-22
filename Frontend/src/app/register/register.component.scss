@@ -1,0 +1,10 @@
+.button-row{
+    display: table-cell;
+    width: 490px;
+}
+.button-row button:nth-child(n+2){
+    margin-left: 2%;
+}
+.link-row{margin-top:3%}
+.link-row h4{width: 100%; font-weight: 200;}
+.signup-body .card{width: 70%;padding: 2% 4% 2% 2%;margin: 0px auto;margin-top: 20%;box-shadow: #ccc 1px 0px 7px 1px;}

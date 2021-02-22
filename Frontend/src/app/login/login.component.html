@@ -1,7 +1,25 @@
-<div>
-    <h2>Login Here</h2>
-    <form class="full-width">
-        
-    </form>
+<div class="login-body">
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Login</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Chamber of Secrets</h6>
+            <form class="full-width">
+                <div class="row mb-3">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" class="form-control ml-2" id="email" placeholder="name@theLocker.com">
+                </div>
+                <div class="row mb-3">
+                    <label for="password" class="form-label">Password</label>
+                    <input type="password" class="form-control ml-2" id="password" placeholder="Password">
+                </div>
+            </form>
+          <div class="row">
+            <button type="button" class="btn btn-primary card-link w-30 ml-2 mb-3">Login</button>
+          </div>  
+          <span class="card-link float-start">Create Account? <a href="#" routerLink="/signup" 
+            routerLinkActive="active">Sign Up</a></span>
+          <span class="card-link float-end">Forgot Password? <a href="">Reset</a></span>
+        </div>
+      </div>
 </div>
 
