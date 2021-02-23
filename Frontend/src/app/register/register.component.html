@@ -1,9 +1,13 @@
 <div class="signup-body">
     <div class="card">
         <div class="card-body">
-          <h5 class="card-title">Sign Up</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Hogwarts</h6>
+          <h5 class="card-title">Create Your Vault</h5>
+          <h6 class="card-subtitle mb-2 text-muted">Enroll to Hogwarts</h6>
             <form class="full-width">
+                <div class="row mb-3">
+                    <label for="full_name" class="form-label">Name</label>
+                    <input type="text" class="form-control ml-2" id="full_name" placeholder="name@theLocker.com">
+                </div>
                 <div class="row mb-3">
                     <label for="email" class="form-label">Email Address</label>
                     <input type="email" class="form-control ml-2" id="email" placeholder="name@theLocker.com">
@@ -11,6 +15,10 @@
                 <div class="row mb-3">
                     <label for="password" class="form-label">Password</label>
                     <input type="password" class="form-control ml-2" id="password" placeholder="Password">
+                </div>
+                <div class="row mb-3">
+                    <label for="cnf_password" class="form-label">Retype Password</label>
+                    <input type="password" class="form-control ml-2" id="cnf_password" placeholder="Confirm Password">
                 </div>
             </form>
           <div class="row">
